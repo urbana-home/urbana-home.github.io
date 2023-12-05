@@ -72,6 +72,4 @@ plantsOfInterest = [
 "Pennisetum 'Karley Rose'",
 "Sporobolis heterolepsis",
 "Schizachyrium scoparium 'Jazz'"
-]  
-
-export { plantsOfInterest };
+] 
