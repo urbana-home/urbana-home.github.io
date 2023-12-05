@@ -26,7 +26,7 @@
       const tableHeader = document.getElementById('plantsTableHeader');
       const tableBody = document.getElementById('plantsTableBody');
 
-      const tableFields = plantsOfInterest[0].keys()
+      const tableFields = Object.keys(plantsOfInterest[0])
 
       tableFields.forEach(field => {
         const headerCell = document.createElement('th');
