@@ -11,26 +11,32 @@
 <h1>plants of interest</h1>
 
 <table>
-  <tr>
-    <th>name</th>
-    <th>height</th>
-    <th>width</th>
-    <th>foliage</th>
-    <th>flower</th>
-    <th>plant</th>
-    <th>bloom</th>
-    <th>harvest</th>
-    <th>preference</th>
-  </tr>
-  <tr>
-    <td>Amsonia hubrichtii</td>
-    <td>3</td>
-    <td>3</td>
-    <td>green</td>
-    <td>blue</td>
-    <td></td>
-    <td>late spring / early summer</td>
-    <td></td>
-    <td>full sun / partial shade</td>
-  </tr>
-</table>
+    <thead>
+      <tr>
+        <th>name</th>
+      </tr>
+    </thead>
+    <tbody id="plantsTableBody"></tbody>
+  </table>
+
+  <script type="module">
+    // Import the array from plants_of_interest.js
+    import { plantsOfInterest } from './plants_of_interest.js';
+
+    // Function to create and populate the table
+    function createTable() {
+      const tableBody = document.getElementById('plantsTableBody');
+
+      // Iterate through the array and create rows
+      plantsOfInterest.forEach(plant => {
+        const row = document.createElement('tr');
+        const cell = document.createElement('td');
+        cell.textContent = plant;
+        row.appendChild(cell);
+        tableBody.appendChild(row);
+      });
+    }
+
+    // Call the function to create the table
+    createTable();
+  </script>
