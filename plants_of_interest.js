@@ -1,4 +1,4 @@
-plantsOfInterest = [
+var plantsOfInterest = [
 "Polystichum arostichoides",
 "Anemone canadensis",
 "Asarum europaeum",
