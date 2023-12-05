@@ -56,7 +56,15 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Asciepias purpurascans",
+		'name': "Asclepias purpurascans",
+ 		'flower': '', 
+ 		'bloom': '', 
+ 		'height': '', 
+ 		'width': '', 
+ 		'preference': '' 
+ 	},
+	{
+		'name': "Asclepias tuberosa",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -240,6 +248,14 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
+		'name': "Eryngium yuccifolium",
+ 		'flower': '', 
+ 		'bloom': '', 
+ 		'height': '', 
+ 		'width': '', 
+ 		'preference': '' 
+ 	},
+	{
 		'name': "Geranium Spessart",
  		'flower': '', 
  		'bloom': '', 
@@ -368,6 +384,14 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
+		'name': "Rudbeckia maxima",
+ 		'flower': '', 
+ 		'bloom': '', 
+ 		'height': '', 
+ 		'width': '', 
+ 		'preference': '' 
+ 	},
+	{
 		'name': "Solidago caesia",
  		'flower': '', 
  		'bloom': '', 
@@ -376,7 +400,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Symphoricarpus orbiculata",
+		'name': "Symphoricarpos orbiculatus",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
