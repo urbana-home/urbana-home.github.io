@@ -20,16 +20,15 @@
   </table>
 
   <script type="module">
-    var hey = ['hey']
     // Import the array from plants_of_interest.js
-    // import { plantsOfInterest } from './plants_of_interest.js';
+    import { plantsOfInterest } from './plants_of_interest.js';
 
     // Function to create and populate the table
     function createTable() {
       const tableBody = document.getElementById('plantsTableBody');
 
       // Iterate through the array and create rows
-      hey.forEach(plant => {
+      plantsOfInterest.forEach(plant => {
         const row = document.createElement('tr');
         const cell = document.createElement('td');
         cell.textContent = plant;
