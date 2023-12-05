@@ -12,8 +12,7 @@
 
 <table>
     <thead>
-      <tr>
-        <th>name</th>
+      <tr id="plantsTableHeader">
       </tr>
     </thead>
     <tbody id="plantsTableBody"></tbody>
@@ -24,14 +23,25 @@
     
     // Function to create and populate the table
     function createTable() {
+      const tableHeader = document.getElementById('plantsTableHeader');
       const tableBody = document.getElementById('plantsTableBody');
+
+      const tableFields = plantsOfInterest[0].keys()
+
+      tableFields.forEach(field => {
+        const headerCell = document.createElement('th');
+        headerCell.textContent = field;
+        tableHeader.appendChild(headerCell);
+      })
 
       // Iterate through the array and create rows
       plantsOfInterest.forEach(plant => {
         const row = document.createElement('tr');
-        const cell = document.createElement('td');
-        cell.textContent = plant;
-        row.appendChild(cell);
+        tableFields.forEach(field => {
+          const cell = document.createElement('td');
+          cell.textContent = plant[field];
+          row.appendChild(cell);
+        })
         tableBody.appendChild(row);
       });
     }
