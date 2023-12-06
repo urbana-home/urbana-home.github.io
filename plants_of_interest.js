@@ -17,11 +17,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Amelanchier x grandiflora 'Autumn Brilliance'",
-		'flower': '',
-		'bloom': '',
-		'height': '',
-		'width': '',
-		'preference': ''
+		'flower': 'white',
+		'bloom': 'april',
+		'height': '15-25',
+		'width': '15-25',
+		'preference': 'full sun / part shade'
 	},
 	{
 		'name': "Asarum europaeum",
