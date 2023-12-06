@@ -16,7 +16,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Amelanchier × grandiflora 'Autumn Brilliance'",
+		'name': "Amelanchier x grandiflora 'Autumn Brilliance'",
 		'flower': '',
 		'bloom': '',
 		'height': '',
