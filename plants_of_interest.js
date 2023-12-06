@@ -80,14 +80,6 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Asciepia tuberosa",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
- 	},
-	{
 		'name': "Baptisia australis",
  		'flower': '', 
  		'bloom': '', 
