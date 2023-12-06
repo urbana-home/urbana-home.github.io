@@ -200,6 +200,14 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
+		'name': "Eustoma exaltatum ssp. russellianum",
+		'flower': '',
+		'bloom': '',
+		'height': '',
+		'width': '',
+		'preference': ''
+	},
+	{
 		'name': "Echinacea 'Harvest Moon'",
  		'flower': '', 
  		'bloom': '', 
