@@ -35,6 +35,7 @@
       })
 
       // Iterate through the array and create rows
+      plantsOfInterest.sort((a, b) => a.name.localeCompare(b.name));
       plantsOfInterest.forEach(plant => {
         const row = document.createElement('tr');
         tableFields.forEach(field => {
