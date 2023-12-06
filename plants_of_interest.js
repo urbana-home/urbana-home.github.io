@@ -48,7 +48,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Aruncus doicus",
+		'name': "Aruncus dioicus",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -56,7 +56,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Asclepias purpurascans",
+		'name': "Asclepias purpurascens",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -144,7 +144,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Convallaria majaiis",
+		'name': "Convallaria majalis",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -160,7 +160,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Dianthus carthusiana",
+		'name': "Dianthus carthusianorum",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -336,7 +336,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Lychnis chaledonica",
+		'name': "Lychnis chalcedonica",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -424,7 +424,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Spirea tormentosa",
+		'name': "Spiraea tomentosa",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
@@ -464,7 +464,7 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Scabiosa culmaria 'Butterfly Blue'",
+		'name': "Scabiosa columbaria 'Butterfly Blue'",
  		'flower': '', 
  		'bloom': '', 
  		'height': '', 
