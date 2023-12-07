@@ -33,11 +33,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Amsonia hubrichtii",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'blue', 
+ 		'bloom': 'april / may', 
+ 		'height': '2-3', 
+ 		'width': '2-3', 
+ 		'preference': 'full sun / part shade' 
  	},
 	{
 		'name': "Anemone x hybrida 'honorine Jobert'",
@@ -80,12 +80,12 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
-		'name': "Actea racemose",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+		'name': "Actaea racemosa",
+ 		'flower': 'white', 
+ 		'bloom': 'june / july', 
+ 		'height': '4-6', 
+ 		'width': '2-4', 
+ 		'preference': 'part shade / full shade' 
  	},
 	{
 		'name': "Baptisia australis",
