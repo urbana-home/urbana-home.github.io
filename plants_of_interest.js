@@ -528,6 +528,14 @@ const plantsOfInterest = [
  		'preference': '' 
  	},
 	{
+		'name': "Verbascum bombyciferum",
+		'flower': '', 
+ 		'bloom': '', 
+ 		'height': '', 
+ 		'width': '', 
+ 		'preference': ''
+	},
+	{
 		'name': "Xanthorhyza simplicissima",
  		'flower': '', 
  		'bloom': '', 
