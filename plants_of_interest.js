@@ -9,11 +9,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Anemone canadensis",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'white', 
+ 		'bloom': 'april / june', 
+ 		'height': '1-2', 
+ 		'width': '2-3', 
+ 		'preference': 'full sun / part shade' 
  	},
 	{
 		'name': "Amelanchier x grandiflora 'Autumn Brilliance'",
@@ -41,11 +41,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Anemone x hybrida 'honorine Jobert'",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'white', 
+ 		'bloom': 'august / september', 
+ 		'height': '3-4', 
+ 		'width': '1-2', 
+ 		'preference': 'full sun / part shade' 
  	},
 	{
 		'name': "Artemisia 'Silver King'",
@@ -73,11 +73,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Asclepias tuberosa",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'orange', 
+ 		'bloom': 'june / august', 
+ 		'height': '1-3', 
+ 		'width': '1-2', 
+ 		'preference': 'full sun' 
  	},
 	{
 		'name': "Actaea racemosa",
