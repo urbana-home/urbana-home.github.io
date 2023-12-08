@@ -89,27 +89,27 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Baptisia australis",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'blue', 
+ 		'bloom': 'may / june', 
+ 		'height': '3-4', 
+ 		'width': '3-4', 
+ 		'preference': 'full sun / part shade' 
  	},
 	{
 		'name': "Baptista alba",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'white', 
+ 		'bloom': 'april / may', 
+ 		'height': '2-4', 
+ 		'width': '2-3', 
+ 		'preference': 'full sun / part shade' 
  	},
 	{
 		'name': "Berginia 'Winter Glow'",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'magenta', 
+ 		'bloom': 'april / may', 
+ 		'height': '1-2', 
+ 		'width': '1-2', 
+ 		'preference': 'part shade / full shade' 
  	},
 	{
 		'name': "Coreopsis plamata",
@@ -121,11 +121,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Coreopsis lanceolata",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'yellow', 
+ 		'bloom': 'may / july', 
+ 		'height': '1-2', 
+ 		'width': '1-2', 
+ 		'preference': 'full sun' 
  	},
 	{
 		'name': "Callirhoe involucrata",
@@ -137,11 +137,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Campanula rotundifolia",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'blue', 
+ 		'bloom': 'june / september', 
+ 		'height': '1', 
+ 		'width': '1', 
+ 		'preference': 'full sun / part shade' 
  	},
 	{
 		'name': "Convallaria majalis",
@@ -161,11 +161,11 @@ const plantsOfInterest = [
  	},
 	{
 		'name': "Dianthus carthusianorum",
- 		'flower': '', 
- 		'bloom': '', 
- 		'height': '', 
- 		'width': '', 
- 		'preference': '' 
+ 		'flower': 'pink', 
+ 		'bloom': 'june / september', 
+ 		'height': '2-3', 
+ 		'width': '1-2', 
+ 		'preference': 'full sun' 
  	},
 	{
 		'name': "Dicentra spectibilis",
