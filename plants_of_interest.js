@@ -112,6 +112,14 @@ const plantsOfInterest = [
  		'preference': 'part shade / full shade' 
  	},
 	{
+		'name': "Calycanthus floridus",
+		'flower': "red",
+		'bloom': 'may / june',
+		'height': '6-10',
+		'width': '6-12',
+		'preference': 'full sun / part shade'
+	}
+	{
 		'name': "Coreopsis plamata",
  		'flower': '', 
  		'bloom': '', 
