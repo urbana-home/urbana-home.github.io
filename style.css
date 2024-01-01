@@ -1,0 +1,9 @@
+* {font-size: 24px;}
+body {margin: 15px 100px;}
+p {padding: 0px 35px;}
+
+
+th, td {
+border: 1px solid black;
+padding: 3px;
+}
