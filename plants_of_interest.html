@@ -3,6 +3,9 @@
     border: 1px solid black;
     padding: 3px;
   }
+
+  * {font-size: 24px;}
+  body {margin: 0px 100px;}
 </style>
 
 <h1>plants of interest</h1>
@@ -15,78 +18,7 @@
 </table>
 
 <script src="./plants_of_interest.js"></script>
+<script src="./DataTable.js"></script>
 <script>
-  let currentSortField = null;
-  let isAscending = true;
-
-  // Function to create and populate the table
-  function createTable() {
-    const tableHeader = document.getElementById('plantsTableHeader');
-    const tableBody = document.getElementById('plantsTableBody');
-
-    const tableFields = Object.keys(plantsOfInterest[0]);
-
-    tableFields.forEach(field => {
-      const headerCell = document.createElement('th');
-      headerCell.textContent = field;
-      headerCell.addEventListener('click', () => sortTable(field));
-      tableHeader.appendChild(headerCell);
-    });
-
-    // Initial sorting
-    sortTable(tableFields[0]);
-
-    // Iterate through the array and create rows
-    plantsOfInterest.forEach(plant => {
-      const row = document.createElement('tr');
-      tableFields.forEach(field => {
-        const cell = document.createElement('td');
-        cell.textContent = plant[field];
-        row.appendChild(cell);
-      });
-      tableBody.appendChild(row);
-    });
-  }
-
-  // Function to sort the table based on a field
-  function sortTable(field) {
-    if (field === currentSortField) {
-      isAscending = !isAscending;
-    } else {
-      currentSortField = field;
-      isAscending = true;
-    }
-
-    plantsOfInterest.sort((a, b) => {
-      const valueA = a[field];
-      const valueB = b[field];
-
-      if (typeof valueA === 'string' && typeof valueB === 'string') {
-        return isAscending ? valueA.localeCompare(valueB) : valueB.localeCompare(valueA);
-      } else {
-        return isAscending ? valueA - valueB : valueB - valueA;
-      }
-    });
-
-    updateTable();
-  }
-
-  // Function to update the table with sorted data
-  function updateTable() {
-    const tableBody = document.getElementById('plantsTableBody');
-    tableBody.innerHTML = ''; // Clear existing rows
-
-    plantsOfInterest.forEach(plant => {
-      const row = document.createElement('tr');
-      Object.keys(plant).forEach(field => {
-        const cell = document.createElement('td');
-        cell.textContent = plant[field];
-        row.appendChild(cell);
-      });
-      tableBody.appendChild(row);
-    });
-  }
-
-  // Call the function to create the table
-  createTable();
+  const myDataTable = new DataTable(plantsOfInterest, 'plantsTableHeader', 'plantsTableBody');
 </script>

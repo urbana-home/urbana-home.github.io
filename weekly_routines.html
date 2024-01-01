@@ -1,0 +1,47 @@
+
+
+<style>
+  th, td {
+    border: 1px solid black;
+    padding: 3px;
+  }
+
+  * {font-size: 24px;}
+  body {margin: 0px 100px;}
+</style>
+
+<h1>weekly routine</h1>
+
+<table>
+  <thead>
+    <tr id="weeklyRoutineHeader"></tr>
+  </thead>
+  <tbody id="weeklyRoutineBody"></tbody>
+</table>
+
+<script>
+    const weeks = [
+    {
+        'week of': '2024-01-01',
+        'running': '', 
+        'garden work': '', 
+        'painting': '', 
+        'stretching': '', 
+        'strength': '',
+        'recovery': '',
+        'sleep': '',
+        'house work': '',
+        'writing': '1',
+        'garden pictures': '',
+        'regional travel': '',
+        'notes': ''
+    }
+]
+
+
+
+</script>
+<script src="./DataTable.js"></script>
+<script>
+  const myDataTable = new DataTable(weeks, 'weeklyRoutineHeader', 'weeklyRoutineBody');
+</script>
