@@ -7,3 +7,17 @@ th, td {
 border: 1px solid black;
 padding: 3px;
 }
+
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Horizontally center images */
+    margin: 0 10px; /* Equal margin on left and right sides */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+}
